@@ -77,3 +77,24 @@ h4 {
 .cta-text {
   color: var(--grayish-blue);
 }
+
+/* ------------------
+        FOOTER
+---------------------*/
+.footer {
+  /* background-color: var(--grayish-blue); */
+}
+
+.footer-logo {
+  width: 3rem;
+}
+
+.footer-link {
+  color: var(--dark-grayish-Blue);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.social-icons-link {
+  margin-right: 1.5rem;
+}
