@@ -38,3 +38,23 @@ body {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.75);
   outline: none;
 }
+
+/* ------------------
+        FEATURES
+---------------------*/
+
+.features-title {
+  font-weight: 600;
+  color: var(--dark-grayish-Blue);
+}
+
+.features p {
+  color: var(--grayish-blue);
+}
+
+.features h2,
+h3,
+h4 {
+  font-weight: 600;
+  color: var(--dark-grayish-Blue);
+}
