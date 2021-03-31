@@ -24,17 +24,28 @@
   </head>
   <body>
     <!-- header -->
-    <header class="header">
+    <header class="header d-flex align-items-center">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <img src="assets/images/logo.svg" alt="" class="header-logo" />
-            <h1 class="header-title">A history of everything you copy</h1>
-            <p>
+            <img
+              src="assets/images/logo.svg"
+              alt="main-logo"
+              class="main-logo my-5"
+            />
+            <h1 class="header-title mb-3">A history of everything you copy</h1>
+            <p class="header-text mb-5">
               Clipboard allows you to track and organize everything you copy.
               Instantly access your clipboard on all your devices.
             </p>
-            <button>Download for iOS</button><button>Download for Mac</button>
+            <div class="d-flex flex-column align-items-center">
+              <button class="mb-3 btn btn-success rounded-pill w-75 py-3">
+                Download for iOS
+              </button>
+              <button class="btn btn-primary rounded-pill w-75 py-3">
+                Download for Mac
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -43,7 +54,7 @@
 
     <main>
       <!-- features -->
-      <section class="features">
+      <section class="features mt-5">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
