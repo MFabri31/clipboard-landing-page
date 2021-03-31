@@ -58,3 +58,22 @@ h4 {
   font-weight: 600;
   color: var(--dark-grayish-Blue);
 }
+
+/* ------------------
+        CLIENTS
+---------------------*/
+.clients div {
+  margin: 3rem 0;
+}
+
+/* ------------------
+        CTA
+---------------------*/
+.cta-title {
+  font-weight: 600;
+  color: var(--dark-grayish-Blue);
+}
+
+.cta-text {
+  color: var(--grayish-blue);
+}
