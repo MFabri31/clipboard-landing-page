@@ -10,6 +10,7 @@
       sizes="32x32"
       href="./assets/icons/favicon-32x32.png"
     />
+
     <!-- font-awesome -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -26,23 +27,27 @@
     <!-- header -->
     <header class="header d-flex align-items-center">
       <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
             <img
               src="assets/images/logo.svg"
               alt="main-logo"
-              class="main-logo my-5"
+              class="main-logo my-3"
             />
             <h1 class="header-title mb-3">A history of everything you copy</h1>
             <p class="header-text mb-5">
               Clipboard allows you to track and organize everything you copy.
               Instantly access your clipboard on all your devices.
             </p>
-            <div class="d-flex flex-column align-items-center">
-              <button class="mb-3 btn btn-success rounded-pill w-75 py-3">
+            <div
+              class="d-flex flex-column flex-md-row justify-content-md-center align-items-center"
+            >
+              <button
+                class="mb-3 m-md-0 mr-md-5 btn btn-success btn-small rounded-pill w-75 py-3"
+              >
                 Download for iOS
               </button>
-              <button class="btn btn-primary rounded-pill w-75 py-3">
+              <button class="btn btn-primary btn-small rounded-pill w-75 py-3">
                 Download for Mac
               </button>
             </div>
@@ -57,10 +62,10 @@
       <section class="features">
         <section class="mt-5">
           <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-12 text-center">
+            <div class="row justify-content-center">
+              <div class="col-md-4 text-center">
                 <h2 class="features-title mb-3">Keep track of your snippets</h2>
-                <p>
+                <p class="">
                   Clipboard instantly stores any item you copy in the cloud,
                   meaning you can access your snippets immediately on all your
                   devices. Our Mac and iOS apps will help you organize
@@ -68,7 +73,7 @@
                 </p>
               </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center align-items-center">
               <div class="col-md-6">
                 <img
                   src="assets/images/image-computer.png"
@@ -76,21 +81,21 @@
                   class="img-fluid my-5"
                 />
               </div>
-              <div class="col-md-6 text-center">
-                <div>
+              <div class="col-md-6 text-center text-md-left">
+                <div class="col-md-6">
                   <h3>Quick Search</h3>
                   <p>
                     Easily search your snippets by content, category, web
                     address, application, and more.
                   </p>
                 </div>
-                <div class="my-5">
+                <div class="col-md-6 my-5">
                   <h3>iCloud Sync</h3>
                   <p>
                     Instantly saves and syncs snippets across all your devices.
                   </p>
                 </div>
-                <div>
+                <div class="col-md-6">
                   <h3>Complete History</h3>
                   <p>
                     Retrieve any snippets from the first moment you started
@@ -102,9 +107,9 @@
           </div>
         </section>
 
-        <section class="mt-5">
+        <section class="mt-5 py-3">
           <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
               <div class="col-md-6 text-center">
                 <h2>Access Clipboard anywhere</h2>
                 <p>
@@ -121,9 +126,9 @@
           </div>
         </section>
 
-        <section>
+        <section class="py-3">
           <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
               <div class="col-md-6 text-center">
                 <h2>Supercharge your workflow</h2>
                 <p class="mb-5">
@@ -140,7 +145,7 @@
                   clipboard by excluding certain sources.
                 </p>
               </div>
-              <div class="col-md-4 my-5">
+              <div class="col-md-4 my-5 m-md-0">
                 <img src="assets/icons/icon-text.svg" alt="" />
                 <h4 class="my-3">Plain text snippets</h4>
                 <p>
@@ -164,29 +169,31 @@
 
       <!-- clients -->
       <section class="clients">
-        <div class="container">
-          <div class="row flex-column flex-md-row text-center">
-            <div class="col md-2">
+        <div class="container mx-auto">
+          <div
+            class="row flex-column flex-md-row text-center justify-content-md-around"
+          >
+            <div class="col-md-2">
               <img
                 class="img-fluid"
                 src="assets/images/logo-google.png"
                 alt=""
               />
             </div>
-            <div class="col md-2">
+            <div class="col-md-2">
               <img class="img-fluid" src="assets/images/logo-ibm.png" alt="" />
             </div>
-            <div class="col md-2">
+            <div class="col-md-2">
               <img
                 class="img-fluid"
                 src="assets/images/logo-microsoft.png"
                 alt=""
               />
             </div>
-            <div class="col md-2">
+            <div class="col-md-2">
               <img class="img-fluid" src="assets/images/logo-hp.png" alt="" />
             </div>
-            <div class="col md-2">
+            <div class="col-md-2">
               <img
                 class="img-fluid"
                 src="assets/images/logo-vector-graphics.png"
@@ -200,27 +207,40 @@
 
       <!-- cta -->
       <section class="cta text-center py-5">
-        <h2 class="cta-title mb-3">Clipboard for iOS and Mac OS</h2>
-        <p class="cta-text mb-4">
-          Available for free on the App Store. Download for Mac or iOS, sync
-          with iCloud and you’re ready to start adding to your clipboard.
-        </p>
-        <div class="d-flex flex-column align-items-center">
-          <button class="mb-3 btn btn-success rounded-pill w-75 py-3">
-            Download for iOS
-          </button>
-          <button class="btn btn-primary rounded-pill w-75 py-3">
-            Download for Mac
-          </button>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <h2 class="cta-title mb-3">Clipboard for iOS and Mac OS</h2>
+              <p class="cta-text mb-4">
+                Available for free on the App Store. Download for Mac or iOS,
+                sync with iCloud and you’re ready to start adding to your
+                clipboard.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 justify-content-center">
+          <div
+            class="col-md-4 d-flex flex-column flex-md-row justify-content-md-center align-items-center"
+          >
+            <button
+              class="mb-3 m-md-0 mr-md-5 btn btn-success rounded-pill w-75 py-3"
+            >
+              Download for iOS
+            </button>
+            <button class="btn btn-primary rounded-pill w-75 py-3">
+              Download for Mac
+            </button>
+          </div>
         </div>
       </section>
       <!-- cta -->
     </main>
 
     <!-- footer -->
-    <footer class="footer py-5 bg-light">
+    <footer class="footer py-5 mt-5 bg-light">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-center text-md-left justify-content-around">
           <div class="col-md-2 mb-4 m-md-0">
             <img
               src="assets/images/logo.svg"
